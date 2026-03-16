@@ -29,7 +29,7 @@ Initial reconnaissance was conducted using **Nmap** to discover open ports and s
 
 Example command used:
 
-nmap -sS -p- 10.129.160.53 -oN scan_results.nmap
+nmap -sS -p- -A 10.129.160.53 -oN scan_results.nmap
 
 This scan revealed multiple open ports and services running on the host.
 
